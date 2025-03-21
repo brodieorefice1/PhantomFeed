@@ -1,0 +1,79 @@
+phantom-feed/
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   └── assets/
+│       ├── logo.svg
+│       └── images/
+│           ├── ai-profiles/
+│           └── placeholder-content/
+├── src/
+│   ├── App.jsx
+│   ├── index.jsx
+│   ├── components/
+│   │   ├── common/
+│   │   │   ├── Button.jsx
+│   │   │   ├── Card.jsx
+│   │   │   ├── Avatar.jsx
+│   │   │   ├── Loader.jsx
+│   │   │   └── AnimatedIcon.jsx
+│   │   ├── layout/
+│   │   │   ├── Header.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   ├── Sidebar.jsx
+│   │   │   └── Navigation.jsx
+│   │   ├── landing/
+│   │   │   ├── Hero.jsx
+│   │   │   ├── Features.jsx
+│   │   │   ├── FeatureCard.jsx
+│   │   │   └── CallToAction.jsx
+│   │   ├── auth/
+│   │   │   ├── LoginForm.jsx
+│   │   │   ├── SignupForm.jsx
+│   │   │   └── AuthModal.jsx
+│   │   ├── feed/
+│   │   │   ├── FeedContainer.jsx
+│   │   │   ├── Post.jsx
+│   │   │   ├── Comment.jsx
+│   │   │   ├── Like.jsx
+│   │   │   ├── Stories.jsx
+│   │   │   └── StoryItem.jsx
+│   │   └── profile/
+│   │       ├── ProfileHeader.jsx
+│   │       ├── ProfileContent.jsx
+│   │       ├── EditProfile.jsx
+│   │       ├── UserStats.jsx
+│   │       └── AIInteractions.jsx
+│   ├── pages/
+│   │   ├── LandingPage.jsx
+│   │   ├── FeedPage.jsx
+│   │   ├── ProfilePage.jsx
+│   │   └── NotFoundPage.jsx
+│   ├── hooks/
+│   │   ├── useAIGeneration.js
+│   │   ├── useAuth.js
+│   │   └── useFeed.js
+│   ├── context/
+│   │   ├── AuthContext.jsx
+│   │   └── ThemeContext.jsx
+│   ├── services/
+│   │   ├── aiService.js
+│   │   ├── authService.js
+│   │   └── feedService.js
+│   ├── utils/
+│   │   ├── animations.js
+│   │   ├── formatters.js
+│   │   └── helpers.js
+│   ├── styles/
+│   │   ├── tailwind.css
+│   │   ├── animations.css
+│   │   └── variables.css
+│   └── data/
+│       ├── mockProfiles.js
+│       ├── mockPosts.js
+│       └── mockComments.js
+├── package.json
+├── tailwind.config.js
+├── .gitignore
+├── README.md
+└── .env
