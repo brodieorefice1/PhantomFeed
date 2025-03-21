@@ -24,6 +24,7 @@ The project is organized as follows:
 
 ## Available Scripts
 In the project directory, you can run:
+- **`npm install react-router-dom framer-motion react-icons` Install dependencies.
 - **`npm start`**: Runs the app in development mode at [http://localhost:3000](http://localhost:3000).
 - **`npm test`**: Launches the test runner in interactive watch mode.
 - **`npm run build`**: Builds the app for production in the `build` folder.
